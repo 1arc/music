@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuneArc</title>
+    <!-- Css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FOnt awesome file -->
+    <script src="https://kit.fontawesome.com/3793324eed.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+
+<body>
+    <nav>
+        <img src="logo.png" id="logo" alt="">
+        <img class="acc-logo" src="unnamed.png" alt="">
+    </nav>
+
+    <div class="main">
+        <div class="main-info">
+            <img class="main-image" src="1.jpg" alt="">
+        </div>
+        <div class="main-queue">
+            <div class="main-queue-head">
+                <div class="queue-head-1 active">
+                    <h4>PLAYLIST</h4>
+                </div>
+            </div>
+            
+            <div class="main-queue-playlist d-flex">
+                <ul>
+                    <li id="a">
+                        <img src="1.jpg" alt="">
+                        <div class="playlist-text">
+                            <h5>Chor</h5>
+                            <p>Justh</p>
+                        </div>
+                        <p class="time">0:00</p>
+                    </li>
+                    <li id="b">
+                        <img src="./music/sherkhulgaye.jpg" alt="">
+                        <div class="playlist-text">
+                            <h5>Sher Khul Gaye</h5>
+                            <p>Vishal, Shekhar</p>
+                        </div>
+                        <p class="time">0:00</p>
+
+                    </li>
+                    <li id="c">
+                        <img src="./music/heer-aasmani.jpg" alt="">
+                        <div class="playlist-text">
+                            <h5>Heer Aasmani</h5>
+                            <p>B Praak, Vishal Dadlani</p>
+                        </div>
+        <p class="time">0:00</p>
+  
+
+                    </li>
+                    <li id="d">
+                        <img src="./music/muqabla.jpg" alt="">
+                        <div class="playlist-text">
+                            <h5>Muqabla</h5>
+                            <p>Yash Narvekar, Parampara Thakur</p>
+                        </div>
+
+                        <p class="time">0:00</p>
+
+                    </li>
+                    <li id="e">
+                        <img src="./music/jar-jai-shiv.jpg" alt="">
+                        <div class="playlist-text">
+                            <h5>Jai Jai Shiv Shankar</h5>
+                            <p>Vishal Dadlani</p>
+                        </div>
+
+                        <p class="time">0:00</p>
+
+                    </li>
+                    <li id="f">
+                        <img src="./music/jhoome-jo-pathaan.jpg" alt="">
+                        <div class="playlist-text">
+                            <h5>Jhoome Jo Pathaan</h5>
+                            <p>Arijit Singh</p>
+                        </div>
+
+                        <p class="time">0:00</p>
+
+                    </li>
+                    <li id="g">
+                        <img src="./music/lutt-putt.jpg" alt="">
+                        <div class="playlist-text">
+                            <h5>Lutt Putt Gaya</h5>
+                            <p>Arjit Singh</p>
+                        </div>
+
+                        <p class="time">0:00</p>
+
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="op-none playback-bar">
+        <input type="range" min="0" value="0" max="100">
+        <div class="left-playback">
+            <img src="1.jpg" alt="">
+            <div class="playback-info">
+                <h5 class="playback-head">Chor</h5>
+                <p class="playback-artist">Justh</p>
+            </div>
+        </div>
+        <div class="controls"><i class="back fas fa-step-backward"></i>
+            <i class="play fas fa-play"></i>
+            <i class="pause d-none fas fa-pause"></i>
+            <i class="next fas fa-step-forward"></i>
+        </div>
+        <div class="volume">
+            <i class="vol-up fas fa-volume-up"></i>
+        <i class="vol-down d-none fas fa-volume-mute"></i>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
